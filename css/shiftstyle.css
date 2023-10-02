@@ -1,0 +1,184 @@
+.optn:hover {
+    background-color: rgb(2, 91, 113);
+    color: white;
+}
+
+.mheader-body-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 12px;
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.myh2 {
+    color: rgb(10, 120, 135);
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.optn {
+    border: 1px solid black;
+    width: 120px;
+    height: 40px;
+    border-radius: 6px;
+    font-size: 17px;
+}
+
+.pdata {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+
+/* //pop up form style  */
+.popup {
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    height: 530px;
+    top: 25px;
+    left: 123px;
+    width: 410px;
+    background: rgb(197, 196, 196);
+    padding: 20px;
+    box-shadow: 6px 6px 29px -4px rgba(0, 0, 0, 0.75);
+    border-radius: 6px;
+    position: relative;
+}
+
+.popup-content .firstpop {
+    margin-left: 98%;
+    margin-top: -4%;
+}
+
+.popup .popup-content .dltbtn {
+    border-radius: 100%;
+    width: 20px;
+    background-color: rgb(154, 227, 227);
+    height: 25px;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+.popup-content .secondpop {
+    height: 30px;
+    /* background-color: brown;  */
+}
+
+.popup-content .secondpop .shftbtn {
+    height: 30px;
+    width: 25%;
+    background: #c5c4c4;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-top: 2px solid white;
+    border-bottom: rgb(197, 196, 196);
+    border-radius: 2px;
+}
+
+.popup-content .secondpop .shftbtn:hover {
+    background: white;
+}
+
+.popup-content .middlepop {
+    height: 85%;
+    background-color: white;
+    margin-left: -20px;
+    margin-right: -20px;
+    /* position:inherit  */
+    padding-top: 15px;
+
+}
+
+.middlepop .mdltxt {
+    background-color: white;
+    width: 90px;
+    height: 19px;
+    border: 1px solid white;
+    margin-top: -48px;
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.middlepop .mdltxt2 {
+    background-color: white;
+    width: auto;
+    height: 19px;
+    border: 1px solid white;
+    margin-left: auto;
+    margin-top: -48px;
+    justify-content: center;
+    font-size: 12px;
+    margin-right: auto;
+
+}
+
+.popup-content .middlepop .singletxtfld {
+    width: 80%;
+    margin-top: 6px;
+}
+
+.colmine {
+    margin-top: 20px;
+
+}
+
+
+
+#popupupdate {
+
+    display: none;
+    width: 175px;
+    height: 160px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 3px 12px 4px;
+    border-radius: 4px;
+    position: absolute;
+    margin-left: 83%;
+    margin-top: 19%;
+    top: 0px;
+    /* position: absolute;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     margin-left: 82%; */
+}
+
+.boxcontent {
+    margin-top: 6px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    gap: 8px;
+}
+.editshift{
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+
+/* <div class="row singletxtfld">
+<p style="text-align: center; font-size: 12px; width: 100%; margin-left: 30%;">The time before the shift strat time during which Employee check-in is considered for attendence</p>
+</div> in this code how can i write the text like  
+"The time before the shift strat time during which 
+Employee check-in is considered for attendence" */

@@ -1,0 +1,125 @@
+.upload-card {
+    width: 40vw;
+    min-height: 50vh; /* Use min-height to ensure the card has a minimum height */
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex; /* Use flex to stack header, content, and footer vertically */
+    flex-direction: column; /* Stack them vertically */
+  }
+  
+  .upload-card-content {
+    flex-grow: 1; /* Allow content to grow and take available space */
+    padding: 20px 10px;
+    margin: 25px;
+    border: 2px dashed black;
+    background-color: rgb(233, 227, 227);
+  }
+  
+  .upload-card-footer {
+    padding: 10px 20px;
+    background-color: rgb(233, 227, 227);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    justify-content: flex-end; /* Align buttons to the right */
+  }
+  
+  /* The rest of your CSS remains the same */
+  
+  .upload-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(233, 227, 227);
+    color: #006080;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /* font-size: 10px; */
+  }
+  
+  .upload-card-header h2 {
+    margin: 0;
+    font-weight: 100;
+  }
+  
+  .close-card {
+    cursor: pointer;
+  }
+  
+  .upload-card-content {
+    padding: 20px 10px;
+    margin: 25px;
+    border: 2px dashed black;
+    margin-top: 3.5rem;
+    background-color: rgb(233, 227, 227);
+  
+  }
+  
+  .upload-instructions {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .upload-instructions p {
+    font-size: 16px;
+  }
+  
+  #fileInput {
+    display: none;
+  }
+  
+  .upload-buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .upload-buttons button {
+    padding: 10px 20px;
+    font-size:20px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+  }
+  
+  #resetButton {
+    background-color: #fff;
+    border: 1px solid #006080;
+    color: #006080;
+  }
+  
+  #submitButton {
+    background-color: #006080;
+    color: #fff;
+  }
+  .upload-card-footer {
+    display: flex;
+    justify-content:flex-end;
+    padding: 10px 20px;
+    background-color: rgb(233, 227, 227);
+    margin-top: 3.2rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .buttons button{
+    display:inline-block;
+    justify-content:space-between;
+    border: none;
+    outline: none;
+    padding: 6px 20px;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  .upload-icon i{
+    font-size: 45px;
+    background-color: #006080;
+    border-radius: 50%;
+    color: #fff;
+  }
+  
